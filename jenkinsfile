@@ -14,7 +14,7 @@ pipeline {
                     $class: 'GitSCM',
                     branches: [[name: '*/main']],
                     userRemoteConfigs: [[
-                        url:'https://github.com/Ohenix/October-Jenkins.git',
+                        url:'https://github.com/setor2211/TERRA1.git'
                         
                     ]]
                 ])
